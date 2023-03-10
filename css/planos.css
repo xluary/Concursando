@@ -1,0 +1,115 @@
+@media(width <= 768px) {
+    .texto-planos{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+}
+
+@media(width > 768px) AND (width<=1024px) {
+    .texto-planos{
+        font-size: 1.3rem;
+    }
+}
+
+@media(width > 1024px) {
+    .texto-planos{
+        font-size: 1.5rem;
+    }
+}
+
+
+.btn-advanced{
+    background-color: #2b8bd8;
+    border: solid #2b8bd8;
+}
+
+.btn-pro{
+    background-color: #29c2ab;
+    border: solid #29c2ab;
+}
+
+.btn-premium{
+    background-color: #2aa7c2;
+    border: solid #2aa7c2;
+}
+
+.planos{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plano{
+    width: 300px;
+    height: 450px;
+    border: solid #cccccc;
+    border-radius: 5%;
+    position: relative;
+    margin: 0% 3% 3% 0%;
+}
+
+.plano .titulo-plano{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.plano .btn-assinar{
+    width: 80%;
+    height: 30px;
+    color: white;
+    border-radius: 25px;
+    
+}
+
+.plano .descricao-plano{
+    text-align: justify;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding-top: 5%;
+}
+
+.plano .valor-plano{
+    text-align: center;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.titulo-advanced{
+    color: #2b8bd8;
+}
+
+.titulo-premium{
+    color: #2aa7c2;
+}
+
+.titulo-pro{
+    color: #29c2ab;
+}
+
+.texto-planos{
+    width: 100%;
+    text-align: justify;
+    padding-top: 3%;
+    padding-bottom: 3%;    
+}
+
+ul{
+    padding: 0px 20px 0px 20px;
+}
+
+.n-parcela{
+    font-size: 1rem;
+}
+
+.valor-avista{
+    font-size: 0.8rem;
+}
+
+.valor-parcelado{
+    font-size: 1.5rem; 
+}
+

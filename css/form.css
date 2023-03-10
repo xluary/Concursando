@@ -1,0 +1,60 @@
+
+
+.caixa-nome{
+    width: 100%;
+}
+
+.caixa-email{
+    width: 100%;
+}
+
+.caixa-msg{
+    width: 100%;
+}
+
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contato-texto{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form{
+    width: 50%;
+    clear: left;
+
+}
+
+.form .groups{
+    display: inline;
+    box-sizing: border-box;
+   
+}
+
+.form .group{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.form .btn-enviar{
+    background-color: #2b8bd8;
+    color: white;
+    font-weight: bold;
+    border: solid #2b8bd8;
+    margin-left: 10px;
+}
+
+.title{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 3%;
+    color: #2b8bd8;
+
+}

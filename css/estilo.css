@@ -1,0 +1,84 @@
+@media(width <= 768px) {
+    .banner{
+        font-size: 1.5em;
+        height: 200px;
+        padding-top: 80px;
+    }
+    
+}
+@media(width > 768px) {
+    .banner{
+        font-size: 2em;
+        height: 250px;
+        padding-top: 100px;
+    }
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font: 1em sans-serif;
+}
+
+.banner{
+    margin-top: 7%;
+    width: 100%;
+    background: linear-gradient(to bottom, #2b8bd8, #29c2ab);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.conteudo{
+    margin: 3%;
+    box-sizing: border-box;
+}
+
+.menu-titulo {
+    display: flex;
+    width: 50%;
+    padding: 2%;
+    box-sizing: border-box;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+ .texto{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.logo{
+    width: 3em;
+    padding-left: 3%;
+    padding-right: 5px;
+}
+
+header{
+    box-shadow: 1px 2px 3px #ccc;
+    display: flex;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    color: #128fa6;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    font-size: 1.5em;
+    width: 50%;
+    text-align: right;
+    align-content: center;
+    padding: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    padding-left: 1%;
+}

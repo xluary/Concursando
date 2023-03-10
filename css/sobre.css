@@ -1,0 +1,37 @@
+@media(width <= 768px) {
+    .texto-sobre{  
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media(width > 768px) AND (width<=1024px) {
+    .texto-sobre{
+        font-size: 1.3rem;
+    }
+}
+
+@media(width > 1024px) {
+    .texto-sobre{
+        font-size: 1.5rem;
+    }
+
+}
+
+
+.sobre{
+    display: inline-block;
+    width: 100%;
+}
+
+.titulo-sobre{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 2%;
+    color: #2b8bd8;  
+}
+
+p{
+    text-align: justify;
+    padding-top: 3%;
+}

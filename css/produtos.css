@@ -1,0 +1,66 @@
+@media(width <= 768px) {
+    .texto-produto{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .produto{
+        grid-template-columns: 1fr;
+    }
+    
+    .img-produto-grafico{
+        width: 100%;  
+    }
+    
+}
+
+@media(width > 768px) AND (width<=1024px) {
+    .texto-produto{
+        font-size: 1.3rem;
+    }
+    .produto{
+        grid-template-columns: 1fr 1fr;  
+    }
+    .img-produto-grafico{
+        width: 100%;  
+    }
+}
+
+@media(width > 1024px) {
+    .texto-produto{
+        font-size: 1.5rem;
+    }
+
+    .produto{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img-produto-grafico{
+        width: 75%;  
+    }
+}
+
+.img-produto{
+    width: 100%;  
+}
+
+.img-produto-grafico{
+    padding-top: 7%;  
+}
+
+.produto{
+    display: grid;
+    align-items: center;
+    width: 100%; 
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    grid-column-gap: 5%;
+}
+
+.texto-produto{ 
+    text-align: justify;
+}
+
+.lista-beneficios > li{
+    padding-top: 15px;
+}
