@@ -37,7 +37,7 @@
 }
 
 .form .group{
-    width: 100%;
+    width: 80%;
     padding: 10px;
     display: block;
     box-sizing: border-box;
@@ -49,6 +49,7 @@
     font-weight: bold;
     border: solid #2b8bd8;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .title{
@@ -56,5 +57,18 @@
     text-align: center;
     padding: 3%;
     color: #2b8bd8;
-
 }
+
+.botoes-plano{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 1%;
+}
+
+.botao-plano{
+    margin-left: 1%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
