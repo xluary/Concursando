@@ -1,7 +1,20 @@
 @media(width <= 768px) {
     .texto-planos{
-        width: 100%;
         font-size: 1.1rem;
+    }
+
+    #label-radio1{
+        top: 15px;
+        left: 25.0%;
+        padding: 3%;
+        width: 20%;
+    }
+    
+    #label-radio2{
+        top: 15px;
+        left: 50%;
+        padding: 3%;
+        width: 20%;
     }
 }
 
@@ -9,11 +22,38 @@
     .texto-planos{
         font-size: 1.3rem;
     }
+    #label-radio1{
+        top: 10px;
+        left: 40%;
+        padding: 1%;
+        width: 8%;
+    }
+    
+    #label-radio2{
+        top: 10px;
+        left: 50%;
+        width: 8%;
+        width: 8%;
+    }
 }
 
 @media(width > 1024px) {
     .texto-planos{
         font-size: 1.5rem;
+    }
+
+    #label-radio1{
+        top: 10px;
+        left: 40.5%;
+        padding: 1%;
+        width: 8%;
+    }
+    
+    #label-radio2{
+        top: 10px;
+        left: 50%;
+        width: 8%;
+        padding: 1%;
     }
 }
 
@@ -38,13 +78,13 @@
 
 .planos{
     text-align: center;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color:  #f2f2f2fc;
     padding-top: 50px;
     border-radius: 5%;
     border: outset #ccc;
+   
 }
 
 .plano{
@@ -52,7 +92,7 @@
     height: 450px;
     border-radius: 5%;
     position: relative;
-    margin: 0% 3% 3% 0%;
+    margin: 1%;
     background: white;
     box-shadow: 1px 1px 4px #ccc;
 }
@@ -192,12 +232,20 @@ ul{
     display: none;
 }
 
+
+.content-planos{
+    position: relative;
+    padding-top: 50px;
+
+}
+
+.plano{
+    animation: mensal-anual;
+    animation-duration: 1s;
+}
+
 #label-radio1{
     position: absolute;
-    top: 23px;
-    left: 39.5%;
-    padding: 0.5%;
-    width: 8%;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
@@ -206,20 +254,35 @@ ul{
 #label-radio2{
     background-color: white;;
     position: absolute;
-    top: 23px;
-    left: 48.4%;
-    padding: 0.5%;
-    width: 8%;
     cursor: pointer; 
     border-radius: 5px;
     text-align: center;
 }
 
-.content-planos{
-    position: relative;
-    padding-top: 50px;
+@keyframes anual-mensal {
+    from{
+        transform: rotate3d(0,1,0,0deg);
+    }
+
+    50%{
+        transform: rotate3d(0,1,0,90deg);
+    }
+
+    to{
+        transform: rotate3d(0,1,0,90deg);
+    }
 
 }
 
+@keyframes mensal-anual {
+    from{
+        
+        transform: rotate3d(0,1,0,90deg);
+       
+    }
 
+    to{
+        transform: rotate3d(0,1,0,0deg);
+    }
 
+}

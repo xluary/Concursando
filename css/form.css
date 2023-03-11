@@ -13,22 +13,18 @@
 }
 
 .contato{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
 }
+
 
 .contato-texto{
-    width: 50%;
-    float: left;
-    padding: 20px;
-    box-sizing: border-box;
+    text-align: justify;
+    padding-top: 10%;
+    font-size: 1.3em;
 }
 
-.form{
-    width: 50%;
-    clear: left;
-
-}
 
 .form .groups{
     display: inline;
@@ -55,8 +51,8 @@
 .title{
     font-size: 1.8rem;
     text-align: center;
-    padding: 3%;
     color: #2b8bd8;
+    padding: 3%;
 }
 
 .botoes-plano{
